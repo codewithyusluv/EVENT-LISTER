@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listener</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <main class="counter-card">
+        <p class="eyebrow">Event listener</p>
+        <h1>Counter</h1>
+
+        <p id="count">0</p>
+
+        <div class="controls" aria-label="Counter controls">
+            <button id="btnMinus" type="button" aria-label="Decrease counter">-</button>
+            <button id="btnReset" type="button">Reset</button>
+            <button id="btnPlus" type="button" aria-label="Increase counter">+</button>
+        </div>
+
+        <div class="storage-controls">
+            <button id="btnSave" type="button">Save value</button>
+            <button id="btnLoad" type="button">Load value</button>
+        </div>
+
+        <p id="storageStatus" role="status" aria-live="polite"></p>
+    </main>
+
+
+    <script src="event.js"></script>
+</body>
+</html>
